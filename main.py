@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 sender_email = ''
 sender_password = ''
 recipient_email = 'nacia354@gmail.com'
-subject = '[Decision]  Request for Your Input on Report Usage Discrepancies'
+subject = '[Decision] Request for Your Input on Report Usage Discrepancies'
 
 data = pd.read_excel('data.xlsx')
 categories = dict({
